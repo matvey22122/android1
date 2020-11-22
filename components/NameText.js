@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {vh} from '../mixin';
+import {vw, vh} from '../mixin';
 
 const NameText = () => {
   return (
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Roboto-Light',
     fontStyle: 'normal',
     fontWeight: '300',
-    fontSize: vh(40),
+    fontSize: vw(40),
   },
 });
 
